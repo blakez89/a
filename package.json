@@ -13,7 +13,19 @@
     "test": "jest",
     "eject": "react-scripts eject"
   },
+    "jest-junit": {
+    "suiteName": "jest tests",
+    "outputDirectory": ".",
+    "outputName": "junit.xml",
+    "uniqueOutputName": "false"
+    "classNameTemplate": "{classname}-{title}",
+    "titleTemplate": "{classname}-{title}",
+    "ancestorSeparator": " › ",
+    "usePathForSuiteName": "true"
+  },
   "devDependencies": {
     "jest-junit": "^10.0.0"
   }
 }
+
+
